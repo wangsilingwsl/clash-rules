@@ -1,0 +1,6 @@
+# 内网直连规则集
+payload:
+  # Nacos 域名强制直连（精准匹配）
+  - DOMAIN,twqc-boot-nacos,DIRECT
+  # 内网网段 192.168.1.x 全部直连
+  - IP-CIDR,192.168.1.0/24,DIRECT
